@@ -1,9 +1,7 @@
 # Web GUI for OMX Player on a Raspberry Pi
 This web GUI give you easy control of your OMX player, directly via your browser. Start your video and audio files directly with your smartphone, tablet or desktop browser. 
 
-<img src="https://aledezma9.github.io/playerMM/images/screenshot-1.png?2" width="30%">
-<img src="https://aledezma9.github.io/playerMM/images/screenshot-2.png?2" width="30%">
-<img src="https://aledezma9.github.io/playerMM/images/screenshot-3.png?2" width="30%">
+
 
 ## Support me
 If you like to buy some coffee, i will appriciate it. You can do this on [Patreon](https://www.patreon.com/brainfoolong) or via [PayPal](https://www.paypal.me/brainfoolong)
