@@ -17,7 +17,20 @@ if [ "$p" != "y" ] && [ "$p" != "Y" ] ; then
     echo "Aborted"
     exit 1
 fi
+echo ""
+echo "==========================================="
+echo "playerMM  necesita actualizar el sistema"
+echo "No se requiere hacer nada"
+echo "Quieres instalar las actualizaciones (sudo)? [y/n]"
 
+read p
+echo ""
+
+if [ "$p" = "y" ] || [ "$p" = "Y" ] ; then
+    sudo apt-get  update -qq -y
+    sudo apt-get upgrade -qq -y
+   
+fi
 
 echo ""
 echo "==========================================="
