@@ -1,9 +1,9 @@
 # Web GUI for OMX Player on a Raspberry Pi
-This web GUI give you easy control of your OMX player, directly via your browser. Start your video and audio files directly with your smartphone, tablet or desktop browser. This GUI is the successor to the first, simpler version of omxwebgui at https://github.com/brainfoolong/omxwebgui/.
+This web GUI give you easy control of your OMX player, directly via your browser. Start your video and audio files directly with your smartphone, tablet or desktop browser. 
 
-<img src="https://brainfoolong.github.io/omxwebgui-v2/images/screenshot-1.png?2" width="30%">
-<img src="https://brainfoolong.github.io/omxwebgui-v2/images/screenshot-2.png?2" width="30%">
-<img src="https://brainfoolong.github.io/omxwebgui-v2/images/screenshot-3.png?2" width="30%">
+<img src="https://aledezma9.github.io/playerMM/images/screenshot-1.png?2" width="30%">
+<img src="https://aledezma9.github.io/playerMM/images/screenshot-2.png?2" width="30%">
+<img src="https://aledezma9.github.io/playerMM/images/screenshot-3.png?2" width="30%">
 
 ## Support me
 If you like to buy some coffee, i will appriciate it. You can do this on [Patreon](https://www.patreon.com/brainfoolong) or via [PayPal](https://www.paypal.me/brainfoolong)
@@ -26,7 +26,7 @@ Feel free to send pull requests. Create an issue for a new feature BEFORE you do
 You can install all requirements and the web gui manually or with our nifthy install script.
 
 ```
-wget https://raw.githubusercontent.com/brainfoolong/omxwebgui-v2/master/install.sh && clear && sh install.sh
+wget https://raw.githubusercontent.com/aledezma9/playerMM/master/install.sh && clear && sh install.sh
 ```
 
 ## Requirements
