@@ -2,13 +2,13 @@
 
 echo ""
 echo "==========================================="
-echo "Welcome to the guided OMXWEBGUI installation script"
-echo "The script requires 'sudo' at one point, to install php5-cli"
-echo "Anyway, you can install all manually by following the steps on"
-echo "https://github.com/brainfoolong/omxwebgui-v2"
-echo "It will install the latest stable release for you"
-echo "If you want the latest master branch, you have do that manually"
-echo "Are you want to continue? [y/n]"
+echo "Bienvenido a playerMM script de instalacion"
+echo "El script requiere "sudo en algun punto", para instalar php5-cli"
+echo "De todos modos, puede instalar todo manualmente siguiendo los pasos en"
+echo "https://github.com/aledezma9/playerMM"
+echo "Se instalara la ultima version estable para usted"
+echo "Si desea la ultima actualizacion debe hacerlo manualmente"
+echo "Deseas continuar? [y/n]"
 
 read p
 echo ""
@@ -21,10 +21,10 @@ fi
 
 echo ""
 echo "==========================================="
-echo "OMXWEBGUI runs with php command line interface"
-echo "No separate webserver required and recommended"
-echo "Maybe you will some errors because of non existing packages, ignore it"
-echo "Are you want to install php-cli now (sudo)? [y/n]"
+echo "playerMMse ejecuta con la interfaz de línea de comandos php"
+echo "No se requiere ni se recomienda un servidor web separado"
+echo "Tal vez tengas algunos errores debido a paquetes no existentes, solo ignóralo"
+echo "Quieres instalar php-cli now (sudo)? [y/n]"
 
 read p
 echo ""
@@ -39,9 +39,9 @@ fi
 
 echo ""
 echo "==========================================="
-echo "OMXWEBGUI runs as a php-cli server which requires a port to be defined"
-echo "Default port is 4321"
-echo "Leave it empty if you stick with the default or change it to a number you want"
+echo "playerMM corre como un php-cli Servidor, que requiere definir un puerto."
+echo "El puerto por default es 4321"
+echo "Déjelo vacío si mantiene el valor predeterminado o lo cambia a un número que desee"
 
 read p
 echo ""
@@ -53,15 +53,15 @@ fi
 
 echo ""
 echo "==========================================="
-echo "Downloading and unpacking OMXWEBGUI to disk"
-echo "Choose directory path, default: ~/omxwebgui"
-echo "Leave it empty if you stick with the default"
-echo "Given directory should be empty or non existing"
+echo "Descargando y desempaquetando playerMM al disco"
+echo "Elija la ruta del directorio, por defecto: ~/playerMM"
+echo "Déjalo vacío si te quedas con el predeterminado"
+echo "El directorio dado debe estar vacío o no existente"
 
 read p
 echo ""
 
-path=~/omxwebgui
+path=~/playerMM
 if [ "$p" != "" ] ; then
     path=$p
 fi
@@ -73,15 +73,15 @@ fi
 mkdir "$path/tmp"
 
 cd $path
-wget https://raw.githubusercontent.com/brainfoolong/omxwebgui-v2/master/updater.php
+wget https://raw.githubusercontent.com/aledezma9/playerMM/master/updater.php
 php -f updater.php
 chmod +x *.sh
 
 echo ""
 echo "==========================================="
-echo "Enable autostart for the OMXWEBGUI server"
-echo "This will add a new entry to crontab"
-echo "Are you want to enable autostart now? [y/n]"
+echo "Habilitar inicio automático para el playerMM server"
+echo "Esto agregará una nueva entrada a crontab."
+echo "¿Quieres habilitar el inicio automático ahora?? [y/n]"
 
 read p
 echo ""
@@ -92,7 +92,7 @@ fi
 
 echo ""
 echo "==========================================="
-echo "Start OMXWEBGUI server now? [y/n]"
+echo "Iniciar el servidor playerMM ahora? [y/n]"
 
 read p
 echo ""
@@ -103,6 +103,6 @@ fi
 
 echo ""
 echo "==========================================="
-echo "All files have been installed!"
-echo "Open http://iptoyourpi:$port in your browser"
-echo "Have fun with this application. You are awesome."
+echo "Todos los archivos han sido instalados!"
+echo "Abra http: // iptoyourpi: $ port en su navegador"
+echo "Diviértete con esta aplicación. Usted es maravilloso."
