@@ -36,6 +36,20 @@ if [ "$p" = "y" ] || [ "$p" = "Y" ] ; then
     sudo apt-get install -qq -y php5-mbstring
 fi
 
+echo ""
+echo "==========================================="
+echo "playerMMse necesita instalar omxplayer"
+echo "Este es el motor del player"
+echo "Quieres instalar omxplayer (sudo)? [y/n]"
+
+read p
+echo ""
+
+if [ "$p" = "y" ] || [ "$p" = "Y" ] ; then
+    sudo apt-get install -qq -y omxplayer
+    
+fi
+
 
 echo ""
 echo "==========================================="
